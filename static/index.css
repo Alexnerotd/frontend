@@ -1,0 +1,161 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+    /*Main*/
+
+.container-root{
+    margin: 0%;
+    padding: 0%;
+    background-color: #222;
+}
+.container{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+/* Menu */
+
+.menu{
+    border: 1px solid black;
+    height: 10vh;
+}
+
+#nav{
+    height: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: "Montserrat";
+}
+
+#home, #front, #back, #portfolio, #contact{
+    text-decoration: none;
+    margin: 2%;
+    color: grey;
+}
+
+#profile{
+    position: absolute;
+    left: 5vh;
+}
+span{
+    position: absolute;
+    left: 5vh;
+    color: white;
+    transition: transform 1s ease-out;
+    opacity: 0.0;
+}
+#nero:hover{
+    transform: translateX(45px);
+    opacity: 0.5; 
+}
+
+
+
+
+/*Main*/
+
+.main{
+    height: 70vh;
+}
+.presentation{
+    margin: 5%;
+    height: 70%;
+}
+.circle {
+    border: solid 10px;
+    border-color: grey;
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 100%;
+    width: 30%;
+    border-radius: 500px;
+    box-shadow: 0px 3px 10px 10px black;
+    transition: transform 0.5s ease-in, box-shadow 0.5s ease;
+    background-image: url(../img/world.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden; /* Para ocultar el desbordamiento de la imagen */
+}
+
+.circle:hover {
+    box-shadow: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95); /* Aumenta el tamaño del círculo ligeramente */
+    background-size: 130%; /* Aumenta el tamaño de la imagen de fondo al 130% al hacer hover */
+}
+.main-text{
+    position: absolute;
+    top: 35vh;
+    left: 85vh;
+    font-family: 'Montserrat';
+}
+h1{
+    font-size: 1.5rem;
+    color: grey;
+}
+h2{
+    font-size: 2.5rem;
+    margin: -10px;
+    margin-left: 1px;
+    color: white;
+}
+
+#description{
+    color: grey;
+    font-size: 15px;
+    width: 80%;
+}
+
+.social{
+    height: 15%;
+}
+.links-social{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#linkedin, #facebook, #github{
+    margin: 1%;
+    text-decoration: none;
+    color: grey;
+    font-family: "Montserrat";
+}
+
+#facebook-img{
+    width: 30px;
+    position: absolute;
+    top: 83vh;
+    left: 4.9vh;
+    opacity: 0.5;
+}
+#github-img{
+    width: 30px;
+    position: absolute;
+    top: 83vh;
+    left: 20.5vh;
+    opacity: 0.5;
+}
+#linkedin-img{
+    width: 30px;
+    position: absolute;
+    top: 83vh;
+    left: 34vh;
+    opacity: 0.5;
+}
+
+#copy{
+    position: absolute;
+    font-size: 0.5rem;
+    right: 5vh;
+    bottom: 5vh;
+    color: grey;
+    font-family: 'Montserrat';
+}
